@@ -1,4 +1,5 @@
 "use client";
+
 import { authFirebase } from "@/app/firebaseConfig";
 import { signOut } from "firebase/auth";
 import { useRouter } from "next/navigation";

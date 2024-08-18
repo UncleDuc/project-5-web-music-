@@ -1,10 +1,11 @@
 import type { Metadata } from "next";
 import {  Quicksand } from "next/font/google";
 import "./globals.css";
-import Sider from "@/components/sider/Sider";
-import Search from "@/components/search/search";
-import Play from "@/components/play/Play";
+
+import Play from "@/app/components/play/Play";
 import { Suspense } from "react";
+import Sider from "@/app/components/sider/Sider";
+import Search from "@/app/components/search/Search";
 
 const quicksand = Quicksand({ subsets: ["latin"] });
 

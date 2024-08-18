@@ -1,8 +1,8 @@
 "use client"
 
-import FormButton from "@/components/form/FormButton";
-import FormInput from "@/components/form/FormInput";
-import Title from "@/components/title/Title";
+import FormButton from "@/app/components/form/FormButton";
+import FormInput from "@/app/components/form/FormInput";
+import Title from "@/app/components/title/Title";
 import { authFirebase, dbFirebase } from "@/app/firebaseConfig";
 import { createUserWithEmailAndPassword } from "firebase/auth";
 import { ref, set } from "firebase/database";

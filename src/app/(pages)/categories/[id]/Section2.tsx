@@ -1,6 +1,6 @@
 import { dbFirebase } from "@/app/firebaseConfig";
 import SongList2 from "@/components/song/SongList2";
-import Title from "@/components/title/Title";
+import Title from "@/app/components/title/Title";
 import { equalTo, onValue, orderByChild, query, ref } from "firebase/database";
 
 

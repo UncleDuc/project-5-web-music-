@@ -1,5 +1,5 @@
-import CardList from "@/components/card/CardList";
-import Title from "@/components/title/Title";
+import CardList from "@/app/components/card/CardList";
+import Title from "@/app/components/title/Title";
 import { dbFirebase } from "@/app/firebaseConfig";
 import { onValue, ref } from "firebase/database";
 

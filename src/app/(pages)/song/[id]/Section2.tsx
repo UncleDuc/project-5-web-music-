@@ -1,4 +1,4 @@
-import Title from "@/components/title/Title";
+import Title from "@/app/components/title/Title";
 
 export default function Section2 (props){
     const {lyric = ""} = props;

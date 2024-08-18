@@ -1,9 +1,9 @@
-import CardInfo from "@/components/card/CardInfo";
+import CardInfo from "@/app/components/card/CardInfo";
 import Section2 from "./Section2";
 import Section3 from "./Section3";
-import { dbFirebase } from "@/app/firebaseConfig";
 import { onValue, ref } from "firebase/database";
 import { notFound } from "next/navigation";
+import { dbFirebase } from "@/app/firebaseConfig";
 
 export default async function SongDetailPage (props : { params : { id : string}}){
     const { params } = props;

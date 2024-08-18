@@ -5,7 +5,7 @@ export default function SearchPage (){
     return (
         <>
            <Suspense>
-            <Section1/>
+                <Section1/>
            </Suspense>
         </>
     )

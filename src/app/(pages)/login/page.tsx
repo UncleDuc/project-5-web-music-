@@ -1,8 +1,8 @@
 "use client"
 import { authFirebase } from "@/app/firebaseConfig";
-import FormButton from "@/components/form/FormButton";
-import FormInput from "@/components/form/FormInput";
-import Title from "@/components/title/Title";
+import FormButton from "@/app/components/form/FormButton";
+import FormInput from "@/app/components/form/FormInput";
+import Title from "@/app/components/title/Title";
 import { signInWithEmailAndPassword } from "firebase/auth";
 import { useRouter } from "next/navigation";
 

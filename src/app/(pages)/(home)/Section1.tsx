@@ -1,7 +1,7 @@
 import { dbFirebase } from "@/app/firebaseConfig";
-import BannerHome from "@/components/banner/BannerHome";
-import SongList from "@/components/song/SongList";
-import Title from "@/components/title/Title";
+import BannerHome from "@/app/components/banner/BannerHome";
+import SongList from "@/app/components/song/SongList";
+import Title from "@/app/components/title/Title";
 import { onValue, ref } from "firebase/database";
 
 export default async function Section1() {
