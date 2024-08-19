@@ -36,7 +36,6 @@ export default function RegisterPage() {
       <div className="mt-[60px] w-[500px] mx-auto">
         <Title 
           text="Đăng Ký Tài Khoản" 
-          className="text-center"
         />
         <form className="" onSubmit={handleRegister}>
           <FormInput
