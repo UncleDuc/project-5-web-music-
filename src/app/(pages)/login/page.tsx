@@ -33,7 +33,7 @@ export default function LoginPage() {
       <div className="mt-[60px] w-[500px] mx-auto">
         <Title 
           text="Đăng Nhập Tài Khoản" 
-          className="text-center"
+          
         />
         <form className="" onSubmit={handleLogin}>
           <FormInput
