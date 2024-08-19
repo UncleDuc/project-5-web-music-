@@ -1,7 +1,7 @@
 
 "use client"
 import { authFirebase, dbFirebase } from "@/app/firebaseConfig";
-import SongList2 from "@/components/song/SongList2";
+import SongList2 from "@/app/components/song/SongList2";
 import Title from "@/app/components/title/Title";
 import { onAuthStateChanged } from "firebase/auth";
 import { onValue, ref } from "firebase/database";

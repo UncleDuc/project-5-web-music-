@@ -7,7 +7,6 @@ import { signInWithEmailAndPassword } from "firebase/auth";
 import { useRouter } from "next/navigation";
 
 
-;
 
 export default function LoginPage() {
   const router = useRouter();
@@ -25,6 +24,7 @@ export default function LoginPage() {
         }
       })
       .catch((error)=>{
+        console.error("Đăng nhập thất bại:", error);
         alert("tài khoản hoặc mật khẩu không chính xác!");
       });
   }
