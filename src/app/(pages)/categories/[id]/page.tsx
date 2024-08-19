@@ -1,4 +1,4 @@
-import CardInfo from "@/components/card/CardInfo";
+import CardInfo from "@/app/components/card/CardInfo";
 import Section2 from "./Section2";
 import { onValue, ref } from "firebase/database";
 import { dbFirebase } from "@/app/firebaseConfig";

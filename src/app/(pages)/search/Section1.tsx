@@ -1,7 +1,7 @@
 "use client"
 
-import SongList2 from "@/components/song/SongList2";
-import Title from "@/components/title/Title";
+import SongList2 from "@/app/components/song/SongList2";
+import Title from "@/app/components/title/Title";
 import { dbFirebase } from "@/app/firebaseConfig";
 import { onValue, ref } from "firebase/database";
 import { useSearchParams } from "next/navigation";

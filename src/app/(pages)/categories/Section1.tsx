@@ -1,6 +1,6 @@
 import { dbFirebase } from "@/app/firebaseConfig";
-import CardList from "@/components/card/CardList";
-import Title from "@/components/title/Title";
+import CardList from "@/app/components/card/CardList";
+import Title from "@/app/components/title/Title";
 import { onValue, ref } from "firebase/database";
 
   export default async function Section1() {
