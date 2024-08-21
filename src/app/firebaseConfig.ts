@@ -3,13 +3,13 @@ import { getDatabase } from "firebase/database";
 import { getAuth } from "firebase/auth";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAEyOVqJooeyra_nUe6DNOv41fK0kt60hs",
-  authDomain: "project-5---f3-24.firebaseapp.com",
-  databaseURL: "https://project-5---f3-24-default-rtdb.firebaseio.com",
-  projectId: "project-5---f3-24",
-  storageBucket: "project-5---f3-24.appspot.com",
-  messagingSenderId: "168508702794",
-  appId: "1:168508702794:web:429c34c324cf5d5881e6b3"
+  apiKey: "AIzaSyCkK7GgH8eggSRTUj-DmFU36w_pCU3AeuQ",
+  authDomain: "project-5-278ff.firebaseapp.com",
+  databaseURL: "https://project-5-278ff-default-rtdb.firebaseio.com",
+  projectId: "project-5-278ff",
+  storageBucket: "project-5-278ff.appspot.com",
+  messagingSenderId: "617476578590",
+  appId: "1:617476578590:web:c9ccef6e4657e996693d0f"
 };
 
 const app = initializeApp(firebaseConfig);
